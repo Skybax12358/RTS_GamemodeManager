@@ -5,16 +5,8 @@ using System;
 
 public class Button_Dropdown : MonoBehaviour
 {
-    public static Button_Dropdown Instance;
-
     public RectTransform Container;
     public bool isOpen;
-
-    void Awake()
-        {
-        Instance = this;
-        }
-   
 
     // Use this for initialization
     void Start()
@@ -52,8 +44,4 @@ public class Button_Dropdown : MonoBehaviour
         else if (isOpen)
             isOpen = false;
     }
-
-    
-
-  
 }

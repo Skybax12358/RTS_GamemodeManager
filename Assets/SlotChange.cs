@@ -12,6 +12,5 @@ public class SlotChange : MonoBehaviour
     public void OnClick()
     {
         DefaultboxText.text = NewString;
-        Parent.gameObject.GetComponent<Button_Dropdown>().isOpen = false;
     }
 }
